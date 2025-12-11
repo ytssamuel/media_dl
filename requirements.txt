@@ -1,0 +1,17 @@
+# YouTube 下載核心
+yt-dlp>=2024.0.0
+
+# SSL 憑證處理
+certifi>=2023.0.0
+
+# HTTP 請求（用於下載縮圖）
+requests>=2.31.0
+
+# GUI 支援（Python 內建，但列出以供參考）
+# tkinter - 通常隨 Python 安裝
+
+# 注意事項：
+# - FFmpeg 需要單獨安裝（請參考 README.md）
+# - macOS: brew install ffmpeg
+# - Linux: sudo apt-get install ffmpeg
+# - Windows: 從官網下載或使用程式內建下載功能
